@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex: wrap;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Abril Fatface', serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+#top{
+    background-color: #0f2f44;
+    
+}
+
+
+
+#top p{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fefefe;
+    width: 50%;
+    padding: 19px 0;
+    
+    
+}
+#top h5{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fefefe;
+    width: 50%;
+    text-align: right;
+    padding: 19px 0;
+
+}
+#top .row{
+    align-items: center;}
+
+    /* nav bar start */
+    nav .menu a{
+        display: inline-block;
+    }
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu li{
+     display: inline-block;}
+
+nav .menu a{
+padding: 40px 0;
+padding: 25px 25px;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #222222;
+}
+nav .row{
+    align-items: center;
+}
+nav .menu li:hover a{
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+
+    /* nav bar end*/
+    /* banner strt */
+#banner{
+background-image: url(../image/new-bg1.jpg);  height: 600px;
+background-position: center;
+background-size: cover;
+}
+
+#banner h3{
+    font-size: 50px;
+    font-weight: 400;
+    color: #0f2f44;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: #0f2f44;
+    font-family: 'Abril Fatface', serif;
+    text-transform: uppercase;
+}
+#banner h4{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #8484bf;
+    letter-spacing: 15px;
+
+}
+#banner p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444444;
+    padding: 32px 0;
+}
+#banner a{
+    background-color: #8484bf;
+    color: #fefefe;
+    padding: 18px 22px;
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#banner .img{
+    width: 30px;
+    height: 30px;
+    padding: 32px 0;
+    
+}
+#banner .main{
+    padding: 78px 0;
+}
+#banner .buttom{
+    padding: 0 20px;
+}
+
+    /* banner ends*/
+/* <!-- about us strt --> */
+#about{
+    background-color: #fefefe;
+}
+#about h5{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#about h3{
+    font-family: 'Abril Fatface', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+#about p{
+    font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+padding-top: 30px 0;
+}
+#about h4{
+    font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   padding: 15px 30px;
+}
+
+#about .buttom a{
+    background-color: #ffc712;
+    color:#0f2f44 ;
+    padding: 18px 22px;
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+#about .buttom2 a{
+    background-color:#ffffff;
+    color:#0f2f44 ;
+    padding: 18px 22px;
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+#about .buttom{
+    padding: 0 20px;
+}
+
+#about .mainbottom{
+    padding: 30px 0px;
+}
+#about .left{
+    padding: 100px 0;
+    width: 50%;
+}
+#about .right img{
+padding: 100px 0;
+text-align: right;
+}
+#about .right{
+    width: 50%;
+}
+
+
+/* skills section strt */
+
+#skill .right{
+    text-align: right;
+}
+#skill h4{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #0f2f44;
+    
+}
+#skill h3{
+    font-family: 'Abril Fatface', serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #0f2f44;
+
+}
+#skill p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  color: #0f2f44;
+
+
+}
+/* skills section end */
+
